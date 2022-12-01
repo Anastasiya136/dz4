@@ -1,0 +1,43 @@
+body {
+    background-color: blueviolet;
+}
+header  {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+header h1 {
+    margin-right: 15px;
+}
+header h1.world-header {
+    color: red;
+}
+header h1.popular-header {
+    color: yellow;
+}
+header h1.games-header {
+    color: green;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img.heroes-img {
+    margin-right: 0;
+}
+
+p.movies-desc {
+    text-align: center;
+    padding: 10px 350px;
+}
+div.moview-overview {
+    text-align: center;
+}
